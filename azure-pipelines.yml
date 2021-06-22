@@ -20,7 +20,3 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-
-- task: MSBuild@1
-  inputs:
-    solution: '**/*.sln'
